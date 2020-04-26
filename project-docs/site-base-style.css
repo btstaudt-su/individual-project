@@ -1,0 +1,181 @@
+*{
+    font-family: 'Inria Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    padding: 10px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebox{
+    float: right;
+     width: 50%;
+        }
+
+.mainbox {
+    float: left;
+    width: 70%;
+        }
+
+@media screen and (max-width: 800px) {
+
+    .flexbox {
+        width: 100%;
+                }
+    .carousel-item {
+        width: 100%;
+    }
+    .page-container{
+        width: 768px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .flexbox-even{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .page-container{
+        width: 320px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .flexbox-even{
+        width:100%;
+    }
+    .flexbox{
+        width: 100%;
+    }
+
+}
+
+
+.page-container{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox-large {
+    flex: 3;
+}
+
+.flexbox-small{
+    flex: 1;
+}
+.flexbox-even {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.tiny-logo{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.player-image{
+    width: 15em;
+    height: 20em;
+}
+
+h1 {
+    color: red;
+}
+
+body {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    padding: 10px;
+    margin: 20px 40px;
+}
+
+img {
+    margin: 20px 0;
+    vertical-align: middle;
+}
+ul {
+    margin: 0 0 50px 0;
+}
+
+
+li {
+    /*line-height: 21px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-style: normal;
+    font-weight: 200;
+    width: 50%;*/
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 0 50px 10px;
+    
+}
+
+tr {
+    border: solid;
+    border-width: 1px 0px;
+}
+
+td{
+    border: solid;
+    border-width: 1px 0;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+.logo {
+    width: 10%;
+    height: 10%;
+}
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.carousel-inner-stadium-comparision{
+    width: 70%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    color: white;
+    position: absolute;
+    height: 150px;
+    width:100%;
+}
